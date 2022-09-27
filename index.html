@@ -4,27 +4,275 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>TRAVEL</title>
   </head>
   <body>
-    <header class="header">
-    <div class="container">
-    <nav class="navigation">
-      <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Travel</a></li>
+    <header class="header" id="home">
+      <div class="social-networks">
+        <ul class="navigation-list">
+          <li class="list-item">
+            <a href="#" class="list-item-link">Instagram</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-link">Twitter</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-link">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="list-item">
+              <a href="#home" class="list-item-link">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#about" class="list-item-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="#travel" class="list-item-link">Travel</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1 class="header-title">Business Travel</h1>
+          <h4 class="header-subtitle">For entrepreneurs and freelancers</h4>
+          <div class="main-button-container">
+            <a href="#" class="main-button"> more info </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about-us-section" id="about">
+        <div class="container">
+          <div class="section-content">
+            <div class="section-info">
+              <p class="section-preheader">About us</p>
+              <h3 class="section-header">
+                WE WILL TURN YOUR WORK INTO <br />
+                AN EXCITING JOURNEY.
+              </h3>
+              <p class="section-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
+                Ac turpis egestas integer eget. Felis bibendum ut tristique et
+                egestas quis ipsu.
+              </p>
+              <p class="section-text">
+                sa massa ultricies mi quis hendrerit dolor magna. Facilisis leo
+                vel fringilla est ullamcorper eget nulla facilisi etiam. Lectus
+                arcu bibendum at varius. In massa tempor nec feugiat nisl.
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare
+                massa eget. Adipiscing elit ut aliquam purus. Nunc pulvinar
+                sapien et ligula ullam
+              </p>
+              <div class="main-button-container about-button-container">
+                <a href="#" class="main-button about-button"> more info </a>
+              </div>
+            </div>
+            <div class="about-us-image">
+              <img src="./img/about us section.png" alt="about us pic" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <div class="gallery-content">
+            <h3 class="section-header-second-variant">PHOTOS OF OUR TRAVELS</h3>
+            <p class="section-subtitle-second-variant">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+              sed do eiusmod tempor incididunt ut labore et dolore
+            </p>
+            <div class="img-row">
+              <img
+                class="gallery-image"
+                src="./img/gallery1.png"
+                alt="gallery-photo"
+              />
 
+              <img
+                class="gallery-image"
+                src="./img/gallery2.png"
+                alt="gallery-photo"
+              />
+              <img
+                class="gallery-image"
+                src="./img/gallery3.png"
+                alt="gallery-photo"
+              />
+            </div>
+            <div class="img-row">
+              <img
+                class="gallery-image"
+                src="./img/gallery4.png"
+                alt="gallery-photo"
+              />
+              <img
+                class="gallery-image"
+                src="./img/gallery5.png"
+                alt="gallery-photo"
+              />
+              <img
+                class="gallery-image"
+                src="./img/gallery6.png"
+                alt="gallery-photo"
+              />
+            </div>
 
-
-
-      </ul>
-
-
-
-    </nav>
-   </div>
-  </header>
+            <div class="img-row">
+              <img
+                class="gallery-image"
+                src="./img/gallery7.png"
+                alt="gallery-photo"
+              />
+              <img
+                data-lightbox="roadtrip"
+                class="gallery-image"
+                src="./img/gallery8.png"
+                alt="gallery-photo"
+              />
+              <img
+                class="gallery-image"
+                src="./img/gallery9.png"
+                alt="gallery-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="travel-section" id="travel">
+        <div class="container">
+          <div class="travel-content">
+            <h3 class="section-header-second-variant">
+              TRAVEL WITH OUR COMPANY
+            </h3>
+            <p class="section-subtitle-second-variant">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+              sed do eiusmod tempor incididunt ut labore et dolore
+            </p>
+            <div class="travel-cards-container">
+              <div class="travel-card">
+                <img
+                  class="card-image"
+                  src="./img/travel-img1.png"
+                  alt="travel-img"
+                />
+                <h6 class="card-header">
+                  COMFORTABLE PREMIUM CLASS ACCOMMODATIONS
+                </h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <button class="card-button">View photos</button>
+              </div>
+              <div class="travel-card">
+                <img
+                  class="card-image"
+                  src="./img/travel-img2.png"
+                  alt="travel-img"
+                />
+                <h6 class="card-header">
+                  WEEKLY GROUP ENTERTAINMENT AND EXCURSIONS
+                </h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <button class="card-button">View photos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="next-tour-section">
+        <div class="container">
+          <div class="section-content">
+            <div class="next-tour-img">
+              <img src="./img/next-tour-img.png" alt="img next tour" />
+            </div>
+            <div class="section-info">
+              <p class="section-preheader">Next tour</p>
+              <h3 class="section-header">
+                UNFORGETTABLE ADVENTURE <br />
+                IN FILIPINAS
+              </h3>
+              <p class="section-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
+                Ac turpis egestas integer eget. Felis bibendum ut tristique et
+                egestas quis ipsu.
+              </p>
+              <p class="section-text">
+                sa massa ultricies mi quis hendrerit dolor magna. Facilisis leo
+                vel fringilla est ullamcorper eget nulla facilisi etiam. Lectus
+                arcu bibendum at varius. In massa tempor nec feugiat nisl.
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare
+                massa eget. Adipiscing elit ut aliquam purus. Nunc pulvinar
+                sapien et ligula ullam
+              </p>
+              <p class="section-text">
+                Mauris ultrices eros in cursus turpis massa tincidunt dui ut.
+                Mauris rhoncus aenean vel elit scelerisque mauris. Pretium
+                vulputate sapien nec sagittis aliquam malesuada. Lectus magna
+                fringilla urna porttitor rhoncus dolor purus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="booking-section">
+        <div class="container">
+          <form action="post" class="booking-form">
+            <div class="form-header">
+              <h6 class="form-title">BOOK A DISCOUNTER TOUR</h6>
+              <p class="form-subtitle">Mauris ultrices eros in cursus turpis</p>
+            </div>
+            <input placeholder="Name" class="form-input" type="text" />
+            <input placeholder="Email" type="email" class="form-input" />
+            <button class="form-button" type="submit">SEND</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="list-item">
+              <a href="#home" class="list-item-link footer-item">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#about" class="list-item-link footer-item">About</a>
+            </li>
+            <li class="list-item">
+              <a href="#gallery" class="list-item-link footer-item">Gallery</a>
+            </li>
+            <li class="list-item">
+              <a href="#travel" class="list-item-link footer-item">Travel</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="edition-info">
+          <p class="business-travel-info">Business travel</p>
+          <p class="business-travel-info">Travel 2019 | All rights reserved</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
